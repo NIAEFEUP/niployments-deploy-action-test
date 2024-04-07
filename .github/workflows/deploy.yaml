@@ -12,4 +12,4 @@ jobs:
 
     steps:
     - name: Upload to NIployments register
-      uses: NIAEFEUP/push-to-niployments@c8132d3
+      uses: NIAEFEUP/push-to-niployments@c8132d3204be8693c8e3c6e39608f0d9e7de23d1
