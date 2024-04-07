@@ -13,3 +13,7 @@ jobs:
     steps:
     - name: Upload to NIployments register
       uses: NIAEFEUP/push-to-niployments@main
+      with:
+        NIPLOYMENTS_REGISTRY_URL: ${{ vars.NIPLOYMENTS_REGISTRY_URL }}
+        NIPLOYMENTS_REGISTRY_USERNAME: ${{ vars.NIPLOYMENTS_REGISTRY_USERNAME }}
+        NIPLOYMENTS_REGISTRY_PASSWORD: ${{ secrets.NIPLOYMENTS_REGISTRY_PASSWORD }}
