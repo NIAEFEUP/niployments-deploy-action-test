@@ -1,0 +1,15 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+  
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Upload to NIployments register
+      uses: NIAEFEUP/push-to-niployments@c8132d3
